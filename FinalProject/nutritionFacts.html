@@ -1,0 +1,51 @@
+<html>
+  <head>
+      <title>Random Food Fact</title>
+      <style>
+      body {font-family: "Trebuchet MS", Helvetica, sans-serif;}
+      div.transbox {
+        margin: 30px;
+        background-color: #ffffff;
+        border: 1px solid black;
+        opacity: 0.8;
+        filter: alpha(opacity=60);
+      }
+      html { 
+        background: url(foodBack4.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+      a:link, a:visited {
+        background-color: #8585ad;
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        opacity: 0.8;
+      }
+      a:hover, a:active {
+        background-color: #666699;
+        opacity: 0.8;
+      }
+    </style>
+  </head>
+  <body>
+    <form method="get" action="http://marge.stuy.edu/~grace.cuenca/FinalProject/randfact.py">
+    <div class="transbox">
+      <center><h1>And your random food facts is...</h1></center>
+      <br><br><br><br><br><br><br><br><br><br><br><br>
+      <center><input type="submit" value="Show Fact"></center>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <div align="right">
+      <FORM><INPUT Type="button" VALUE="Back" onClick="history.go(-1);return true;"></FORM>
+      <form action="http://marge.stuy.edu/~grace.cuenca/FinalProject/foodHome.html">
+        <input type="submit" value="Home">
+      </form>
+        </div>
+    </div>
+    </form>
+  </body>
+</html>

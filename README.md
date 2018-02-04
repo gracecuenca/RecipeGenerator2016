@@ -1,4 +1,3 @@
-# RecipeGenerator2016
-Intro CS2 Final Project
+# recipe-generator
+Intro CS2 Final Project (2016)
 
-In order to access this project, please clone the repo and open recipeHome.html.
